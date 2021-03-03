@@ -18,5 +18,30 @@ public class Cliente {
 		String dados = "Seu nome é: "+nome+"; seu cpf é: "+cpf+", sua nacionalidade é: "+nacionalidade+" e sua idade é: "+idade;
 		System.out.println(dados);
 	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public String getNacionalidade() {
+		return nacionalidade;
+	}
+	public void setNacionalidade(String nacionalidade) {
+		this.nacionalidade = nacionalidade;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	
 	
 }
